@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import salesByRegion from "../../assets/Hero-Images/salesByRegion.png";
-import correctIcon from "../../assets/Hero-Images/correctIcon.svg";
+import correctIcon from "../../assets/Hero-Images/CorrectIcon.svg";
 import DefaultButton from "../../components/button/DefaultButton";
 
 const SalesByRegion = () => {
