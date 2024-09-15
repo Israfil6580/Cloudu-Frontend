@@ -166,15 +166,9 @@ const AllCondition = () => {
             {term.content && (
               <ul className="flex flex-col gap-2">
                 {term.content.map((item, index) => {
-                  const [beforeColon, afterColon] = item.split(":");
                   return (
                     <motion.li key={index} variants={textVariant}>
-                      <span className="font-medium text-lg text-primary">
-                        {beforeColon}:
-                      </span>{" "}
-                      <span className="text-secondary text-lg">
-                        {afterColon}
-                      </span>
+                      <span className="text-secondary text-lg">{item}</span>
                     </motion.li>
                   );
                 })}

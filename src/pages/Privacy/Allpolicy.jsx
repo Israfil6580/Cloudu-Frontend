@@ -151,10 +151,7 @@ const Allpolicy = () => {
               {pol?.content?.map((item, index) => {
                 const [beforeColon, afterColon] = item.split(":");
                 return (
-                  <motion.li
-                    key={index}
-                    variants={textVariant} // Applying the same text variant to list items
-                  >
+                  <motion.li key={index} variants={textVariant}>
                     <span className="font-medium text-lg text-primary">
                       {beforeColon}:
                     </span>{" "}
