@@ -1,9 +1,9 @@
 import Navbar from "../../components/Navbar";
-import card1 from "../../assets/Hero-Images/card 1.svg";
-import card2 from "../../assets/Hero-Images/card 2.svg";
-import patternImage from "../../assets/Hero-Images/Background pattern.svg";
-import avater1 from "../../assets/Hero-Images/avatar 1.png";
-import avater2 from "../../assets/Hero-Images/avatar 2.png";
+import card1 from "../../assets/Hero-Images/card1.svg";
+import card2 from "../../assets/Hero-Images/card2.svg";
+import patternImage from "../../assets/Hero-Images/Backgroundpattern.svg";
+import avater1 from "../../assets/Hero-Images/avatar1.png";
+import avater2 from "../../assets/Hero-Images/avatar2.png";
 import BlueButton from "../../components/button/BlueButton";
 import { motion } from "framer-motion";
 const Header = () => {

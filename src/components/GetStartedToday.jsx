@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import WhiteButton from "./button/WhiteButton";
 import flowerShape from "../assets/Hero-Images/flowerShape.png";
-import backgroundPattern from "../assets/Hero-Images/Background pattern.png";
+import backgroundPattern from "../assets/Hero-Images/Backgroundpattern.png";
 const GetStartedToday = () => {
   return (
     <motion.div

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import OrangeButton from "../../components/button/OrangeButton";
-import pattern from "../../assets/Hero-Images/Background pattern.png";
+import pattern from "../../assets/Hero-Images/Backgroundpattern.png";
 
 const StartGrowth = () => {
   return (
