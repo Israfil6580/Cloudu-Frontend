@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import Logo1 from "../assets/Icon/logo-1.svg";
-import Logo2 from "../assets/Icon/logo-2.svg";
-import Logo3 from "../assets/Icon/logo-3.svg";
-import Logo4 from "../assets/Icon/logo-4.svg";
-import Logo5 from "../assets/Icon/logo-5.svg";
-import Logo6 from "../assets/Icon/logo-6.svg";
-import Logo7 from "../assets/Icon/logo-7.svg";
-import Logo8 from "../assets/Icon/logo-8.svg";
-import Logo9 from "../assets/Icon/logo-9.svg";
-import Logo10 from "../assets/Icon/logo-10.svg";
+import Logo1 from "../assets/Icon/Logo-1.svg";
+import Logo2 from "../assets/Icon/Logo-2.svg";
+import Logo3 from "../assets/Icon/Logo-3.svg";
+import Logo4 from "../assets/Icon/Logo-4.svg";
+import Logo5 from "../assets/Icon/Logo-5.svg";
+import Logo6 from "../assets/Icon/Logo-6.svg";
+import Logo7 from "../assets/Icon/Logo-7.svg";
+import Logo8 from "../assets/Icon/Logo-8.svg";
+import Logo9 from "../assets/Icon/Logo-9.svg";
+import Logo10 from "../assets/Icon/Logo-10.svg";
 
 const logos = [
   Logo1,
