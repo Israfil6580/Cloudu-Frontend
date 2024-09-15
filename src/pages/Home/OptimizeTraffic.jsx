@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import correctIcon from "../../assets/Hero-Images/correctIcon.svg";
+import correctIcon from "../../assets/Hero-Images/CorrectIcon.svg";
 import DefaultButton from "../../components/button/DefaultButton";
 
 const OptimizeTraffic = ({ image }) => {
