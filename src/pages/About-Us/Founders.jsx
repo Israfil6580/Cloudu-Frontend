@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import Logo1 from "../../assets/Icon/logo-1.svg";
-import Logo2 from "../../assets/Icon/logo-2.svg";
-import Logo3 from "../../assets/Icon/logo-3.svg";
-import Logo4 from "../../assets/Icon/logo-4.svg";
-import Logo5 from "../../assets/Icon/logo-5.svg";
+import Logo1 from "../../assets/Icon/Logo-1.svg";
+import Logo2 from "../../assets/Icon/Logo-2.svg";
+import Logo3 from "../../assets/Icon/Logo-3.svg";
+import Logo4 from "../../assets/Icon/Logo-4.svg";
+import Logo5 from "../../assets/Icon/Logo-5.svg";
 
 const logos = [Logo1, Logo2, Logo3, Logo4, Logo5];
 
