@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import DefaultButton from "../../components/button/DefaultButton";
 import OrangeButton from "../../components/button/OrangeButton";
-import dashboard from "../../assets/Features/dashboard.png";
+import dashboard from "../../assets/Features/Dashboard.png";
 
 const LookBeyhondLimits = () => {
   return (
