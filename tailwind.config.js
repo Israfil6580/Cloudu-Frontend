@@ -38,7 +38,7 @@ export default {
         xxl: "71.3px",
       },
       backgroundImage: {
-        "custom-image": "url('./src/assets/Hero-Images/Background.png')",
+        "custom-image": "url('/src/assets/Hero-Images/Background.png')",
         "custom-gradient":
           "linear-gradient(136.19deg, #FBCCB8 0%, #594FFE 50.48%, #FFFFFF 98.99%)",
         "gradient-features":
