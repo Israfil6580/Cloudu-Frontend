@@ -1,0 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 0);
+}
