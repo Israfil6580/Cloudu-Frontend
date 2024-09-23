@@ -39,18 +39,6 @@ const Navbar = () => {
         >
           Pricing
         </NavLink>
-        <NavLink
-          to="/resources"
-          className="text-accent font-medium leading-primary"
-        >
-          Resources
-        </NavLink>
-        <NavLink
-          to="/support"
-          className="text-accent font-medium leading-primary"
-        >
-          Support
-        </NavLink>
       </motion.div>
 
       {/* Mobile Menu */}
@@ -74,18 +62,6 @@ const Navbar = () => {
             className="text-accent font-medium leading-primary"
           >
             Pricing
-          </NavLink>
-          <NavLink
-            to="/resources"
-            className="text-accent font-medium leading-primary"
-          >
-            Resources
-          </NavLink>
-          <NavLink
-            to="/support"
-            className="text-accent font-medium leading-primary"
-          >
-            Support
           </NavLink>
         </div>
       </motion.div>
@@ -122,12 +98,6 @@ const Navbar = () => {
 
       {/* Action Button */}
       <div className="hidden w-1/4 lg:flex justify-end gap-4">
-        <NavLink
-          to="/signin"
-          className="font-medium py-3 px-5 leading-primary text-accent"
-        >
-          Sign in
-        </NavLink>
         <BlueButton pathName={"/free-trial"} text={"Get 14 Days Free Trial"} />
       </div>
     </div>

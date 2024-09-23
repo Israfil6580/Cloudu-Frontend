@@ -3,23 +3,13 @@ import { motion } from "framer-motion";
 import logo from "../assets/Logo.svg";
 
 const Footer = () => {
-  const Products = [
-    { name: "Pricing & Plans", path: "pricing-plans" },
-    { name: "Integration", path: "integration" },
-    { name: "Integration Details", path: "integration-details" },
-    { name: "Product Features", path: "product-features" },
-  ];
+  const Products = [{ name: "Pricing & Plans", path: "pricing-plans" }];
 
-  const Support = [
-    { name: "Blog", path: "blog" },
-    { name: "Blog Details", path: "blog-details" },
-    { name: "Event", path: "event" },
-  ];
+  const Support = [{ name: "Blog", path: "blog" }];
 
   const company = [
     { name: "About Us", path: "about-us" },
     { name: "Changelog", path: "changelog" },
-    { name: "Customer Reviews", path: "customer-reviews" },
     { name: "Contact", path: "contact" },
   ];
 
@@ -171,12 +161,6 @@ const Footer = () => {
           viewport={{ once: true }} // Ensures animation triggers only once
         >
           <div className="flex gap-10">
-            <Link
-              className="text-sm text-secondary leading-[23.8px]"
-              to="/license"
-            >
-              License
-            </Link>
             <Link
               className="text-sm text-secondary leading-[23.8px]"
               to="/terms-conditions"
